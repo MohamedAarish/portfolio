@@ -1,0 +1,86 @@
+img.logo
+{
+	width:40px;
+	height: auto;
+}
+.navbar-brand
+{
+	width: 50%;
+}
+body
+{
+	font-family: 'Lato', sans-serif;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
+{
+	color:#9a0202;
+}
+.social-link a
+{
+	color:#9a0202;
+}
+footer{
+	color:#9a0202;
+	font-size: 0.875rem;
+	border-top: 1px solid #9a0202;
+}
+.img-desc
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	background: #ffffff;
+	width: 100%;
+	height: 100%;
+	color: #9a0202;
+}
+.img-desc:hover, .img-desc:focus
+{
+	opacity: 0.6;
+	animation-name: portfolio;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes portfolio
+{
+	0%
+	{
+		opacity: 0.6;
+	}
+	100%
+	{
+		opacity: 0.9;
+	}
+}
+.breadcrumb
+{
+	background:#ffffff;
+}
+.breadcrumb .breadcrumb-item a{
+	color:#9a0202;
+}
+.team
+{
+	background: #F0F0F0;
+}
+.team .bg-light {
+    background-color: #F0F0F0!important;
+}
+.team .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0);
+}
+.team .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #9a0202;
+}
+.team .breadcrumb{
+	background: #F0F0F0;
+}
+.team .breadcrumb-item.active {
+    color:black;
+}
+.rounded-circle
+{
+	width:250px;
+	height:250px;
+}
